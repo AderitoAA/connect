@@ -18,9 +18,5 @@ Artisan::command('inspire', function () {
     $this->comment(Inspiring::quote());
 })->purpose('Display an inspiring quote');
 
-public function index()
-{
-    $eventos = Evento::all();
-    return view('eventos', compact('eventos'));
-}
+
 
